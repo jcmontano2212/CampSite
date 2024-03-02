@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Concert+One&family=Rubik+Doodle+Shadow&family=Silkscreen&display=swap');
+
+
+
+h1 {
+	font-family: "Rubik Doodle Shadow";
+	color: white;
+	text-shadow: 3px 3px 7px black;
+}
+.one {
+
+	font-size: 60px;
+}
+.two {
+	font-size: 30px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.card {
+	margin: 5px 5px;
+	box-shadow: 0px 20px 40px 0px rgba(200, 200, 200, 0.3);
+    transition: 0.5s;
+}
+.card:hover {
+    margin: 10px 10px;
+    box-shadow: 0px 20px 40px 15px rgba(255, 255, 255, 1.0);
+
+
+}
+
+a {
+	text-decoration: none;
+
+
+}
+
+
+img {
+	width: 300px;
+	height: 180px;
+}
+
+p {
+	font-family:"Concert One";
+}
+
+
+
+
+
+
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+body {
+    position: inherit;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #4fc96e;
+    overflow: inherit;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+.background li {
+    z-index: -1;
+    position: fixed;
+    display: block;
+    backface-visibility: hidden;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 5s linear infinite;
+}
+
+
+
+
+.background li:nth-child(0) {
+    left: 53%;
+    width: 195px;
+    height: 195px;
+    bottom: -195px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 7%;
+    width: 124px;
+    height: 124px;
+    bottom: -124px;
+    animation-delay: 5s;
+}
+.background li:nth-child(2) {
+    left: 34%;
+    width: 108px;
+    height: 108px;
+    bottom: -108px;
+    animation-delay: 3s;
+}
+.background li:nth-child(3) {
+    left: 30%;
+    width: 198px;
+    height: 198px;
+    bottom: -198px;
+    animation-delay: 13s;
+}
+.background li:nth-child(4) {
+    left: 41%;
+    width: 107px;
+    height: 107px;
+    bottom: -107px;
+    animation-delay: 12s;
+}
+.background li:nth-child(5) {
+    left: 65%;
+    width: 179px;
+    height: 179px;
+    bottom: -179px;
+    animation-delay: 4s;
+}
+.background li:nth-child(6) {
+    left: 31%;
+    width: 125px;
+    height: 125px;
+    bottom: -125px;
+    animation-delay: 11s;
+}
+.background li:nth-child(7) {
+    left: 34%;
+    width: 198px;
+    height: 198px;
+    bottom: -198px;
+    animation-delay: 16s;
+}
+.background li:nth-child(8) {
+    left: 27%;
+    width: 100px;
+    height: 100px;
+    bottom: -100px;
+    animation-delay: 13s;
+}
+.background li:nth-child(9) {
+    left: 66%;
+    width: 139px;
+    height: 139px;
+    bottom: -139px;
+    animation-delay: 11s;
+}
